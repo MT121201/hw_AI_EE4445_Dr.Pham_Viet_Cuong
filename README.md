@@ -31,4 +31,16 @@ I using a small simple Predicting Sales Revenue dataset for this problem (d4.csv
 | 900                           | 800                              | 250                                | 2100          |
 | ...                           | ...                              | ...                     
 
+## Homework 5
+**Topic:** Write a program implementing kNN algorithm solving a freely chosen problem
+
+I making the dataset for the customer churn classification problem (customer_churn_dataset.csv)
+
+| Customer ID | Gender | Age | Monthly Charges | Total Charges | Number of Calls | Number of Messages | Churn |
+|-------------|--------|-----|----------------|---------------|-----------------|--------------------|-------|
+| 1           | Male   | 35  | 50             | 500           | 100             | 20                 | 0     |
+| 2           | Female | 42  | 70             | 800           | 200             | 50                 | 1     |
+| 3           | Male   | 28  | 40             | 300           | 50              | 10                 | 0     |
+| 4           | Female | 55  | 80             | 1500          | 300             | 100                | 1     |
+| 5           | Male   | 20  | 30             | 100           | 10              | 5                  | 0     |
 

@@ -17,7 +17,7 @@ class Perceptron:
                 self.weights[1:] += self.learning_rate * (label - prediction) * inputs
                 self.weights[0] += self.learning_rate * (label - prediction)
 
-# Example usage
+# Training examples
 training_inputs = np.array([
     [10, 5],   # Cat with size 10 and weight 5
     [5, 3],    # Cat with size 5 and weight 3

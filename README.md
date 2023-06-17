@@ -61,3 +61,8 @@ I perform customer segmentation using the K-means clustering algorithm (k=2) wit
 **Topic:** Write a program implementing K++ algorithm (centroid initialization only)
 
 I perform customer segmentation using the K++ algorithm (k=2) with the new distribution custom dataset (d7.csv)
+
+## Homework 8
+**Topic:** Use SVM, soft margin SVM, kernel SVM tools solving a freely chosen problem
+
+I used a synthetic dataset generated using the make_blobs function from scikit-learn

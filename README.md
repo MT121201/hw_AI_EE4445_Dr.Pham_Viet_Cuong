@@ -19,7 +19,7 @@ I use Python randomly make a dataset for  20 students' CGPA and their Salary, an
 | 3.70 | 50211  |
 
 ## Homework 4
-**Topic:** Write a program implementing the linear regression algorithm solving a freely chosen problem.\
+**Topic:** Write a program implementing the linear regression algorithm to solve a freely chosen problem.\
 I using a small simple Predicting Sales Revenue dataset for this problem (d4.csv)
 
 | Advertising Spend (Online Ads) | Advertising Spend (Social Media) | Advertising Spend (Email Marketing) | Sales Revenue |
@@ -34,7 +34,7 @@ I using a small simple Predicting Sales Revenue dataset for this problem (d4.csv
 ## Homework 5
 **Topic:** Write a program implementing kNN algorithm solving a freely chosen problem
 
-I making the dataset for the customer churn classification problem (customer_churn_dataset.csv)
+I generate the dataset below for implementing kNN (k=5)  (customer_churn_dataset.csv)
 
 | Customer ID | Gender | Age | Monthly Charges | Total Charges | Number of Calls | Number of Messages | Churn |
 |-------------|--------|-----|----------------|---------------|-----------------|--------------------|-------|
@@ -44,3 +44,20 @@ I making the dataset for the customer churn classification problem (customer_chu
 | 4           | Female | 55  | 80             | 1500          | 300             | 100                | 1     |
 | 5           | Male   | 20  | 30             | 100           | 10              | 5                  | 0     |
 
+## Homework 6
+**Topic:** Write a program implementing a k-means clustering algorithm solving a freely chosen problem
+
+I perform customer segmentation using the K-means clustering algorithm (k=2) with the simple custom dataset (d6.csv)
+
+| Customer ID | Age | Gender | Annual Income ($) | Spending Score (0-100) |
+|-------------|-----|--------|-------------------|-----------------------|
+| 1           | 25  | Male   | 40,000            | 75                    |
+| 6           | 55  | Female | 100,000           | 65                    |
+| 7           | 20  | Male   | 30,000            | 80                    |
+| 13          | 50  | Female | 80,000            | 15                    |
+| 16          | 28  | Female | 32,000            | 80                    |
+
+## Homework 7
+**Topic:** Write a program implementing K++ algorithm (centroid initialization only)
+
+I perform customer segmentation using the K++ algorithm (k=2) with the new distribution custom dataset (d7.csv)

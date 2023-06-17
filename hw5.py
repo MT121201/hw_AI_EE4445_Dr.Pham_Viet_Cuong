@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
 # Load the dataset from CSV file
-df = pd.read_csv('customer_churn_dataset.csv')
+df = pd.read_csv('d5.csv')
 
 # Drop the 'Customer ID' column
 df = df.drop('Customer ID', axis=1)

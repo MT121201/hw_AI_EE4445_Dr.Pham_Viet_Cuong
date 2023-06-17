@@ -70,11 +70,11 @@ I used a synthetic dataset generated using the make_blobs function from scikit-l
 ## Homework 9
 **Topic:** Write a programe implementing Q learning algorithm solving a freely chosen problem (except the problem used as example in the lecture)
 
-I use this matrix to find path From Start(S) reach Goal(W) and avoid Hold(H)
+I use Q_learning to find path From Start(S) reach Goal(G) and avoid Hold(X)
 
 |   | 0 | 1 | 2 | 3 |
 |---|---|---|---|---|
 | 0 | S |   |   |   |
-| 1 | H |   |   | H |
+| 1 | X |   |   | X |
 | 2 |   |   |   |   |
-| 3 |   | H |   | W |
+| 3 |   | X |   | G |

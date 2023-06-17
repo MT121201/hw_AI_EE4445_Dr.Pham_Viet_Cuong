@@ -68,7 +68,7 @@ I perform customer segmentation using the K++ algorithm (k=2) with the new distr
 I used a synthetic dataset generated using the make_blobs function from scikit-learn
 
 ## Homework 9
-**Topic:** Write a programe implementing Q learning algorithm solving a freely chosen problem (except the problem used as example in the lecture)
+**Topic:** Write a program implementing Q learning algorithm solving a freely chosen problem (except the problem used as example in the lecture)
 
 I use Q_learning to find path From Start(S) reach Goal(G) and avoid Hold(X)
 

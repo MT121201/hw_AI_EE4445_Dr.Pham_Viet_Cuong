@@ -82,6 +82,6 @@ I use Q_learning to find path From Start(S) reach Goal(G) and avoid Hold(X)
 ## Homework 12
 **Topic:** Write a program implementing gradient descent method. Consider at least two non-convex two-variable functions f(x,y), multiple initial points, and various learning rates
 
-I will use the Rosenborck function, a well-known example of a non-convex function.\
+I will use the function below, a well-known example of a non-convex function.\
 `f(x, y) = x^2 + y^4 - 2xy + x - y`
 

@@ -40,20 +40,13 @@ I generate the dataset below for implementing kNN (k=5)  (customer_churn_dataset
 ## Homework 6
 **Topic:** Write a program implementing a k-means clustering algorithm solving a freely chosen problem
 
-I perform customer segmentation using the K-means clustering algorithm (k=2) with the simple custom dataset (d6.csv)
+I perform customer segmentation using the K-means clustering algorithm (k=3) with the simple dataset using sklearn make_blobs
 
-| Customer ID | Age | Gender | Annual Income ($) | Spending Score (0-100) |
-|-------------|-----|--------|-------------------|-----------------------|
-| 1           | 25  | Male   | 40,000            | 75                    |
-| 6           | 55  | Female | 100,000           | 65                    |
-| 7           | 20  | Male   | 30,000            | 80                    |
-| 13          | 50  | Female | 80,000            | 15                    |
-| 16          | 28  | Female | 32,000            | 80                    |
 
 ## Homework 7
 **Topic:** Write a program implementing K++ algorithm (centroid initialization only)
 
-I perform customer segmentation using the K++ algorithm (k=2) with the new distribution custom dataset (d7.csv)
+I perform customer segmentation using the K++ algorithm (k=3) with the new distribution custom dataset 
 
 ## Homework 8
 **Topic:** Use SVM, soft margin SVM, kernel SVM tools solving a freely chosen problem

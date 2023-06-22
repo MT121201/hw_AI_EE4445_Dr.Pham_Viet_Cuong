@@ -1,29 +1,27 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
-from sklearn.preprocessing import OneHotEncoder
 
-# Read the dataset
-data = pd.read_csv('d6.csv')
+# Load the customer data from CSV file
+df = pd.read_csv('d6.csv')
 
-# Drop the ID column
-data = data.drop('Customer ID', axis=1)
+# Extract the features for clustering
+X = df.iloc[:, 0:3].values
 
-# Perform one-hot encoding on the Gender column
-onehot_encoder = OneHotEncoder(sparse=False)
-gender_encoded = onehot_encoder.fit_transform(data[['Gender']])
-data['Gender_Female'] = gender_encoded[:, 0]
-data['Gender_Male'] = gender_encoded[:, 1]
-data = data.drop('Gender', axis=1)
+# Perform k-means clustering with 2 clusters
+k = 2
+kmeans = KMeans(n_clusters=k, random_state=42)
+kmeans.fit(X)
 
-# Apply k-means clustering with k=2
-kmeans = KMeans(n_clusters=2, random_state=42)
-labels = kmeans.fit_predict(data)
+# Get the cluster labels for each data point
+labels = kmeans.labels_
 
-# Plot the clusters
-plt.scatter(data['Annual Income ($)'], data['Spending Score (0-100)'], c=labels, cmap='viridis')
+# Add the cluster labels as a new column in the dataframe
+df['Cluster'] = labels
+
+# Visualize the clustered data
+plt.scatter(df['Annual Income ($)'], df['Spending Score (0-100)'], c=labels, cmap='viridis')
 plt.xlabel('Annual Income ($)')
 plt.ylabel('Spending Score (0-100)')
-plt.title('Customer Clusters')
+plt.title('K-Means Clustering')
 plt.show()

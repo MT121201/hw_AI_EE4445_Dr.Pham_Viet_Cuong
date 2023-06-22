@@ -20,16 +20,9 @@ I use Python randomly make a dataset for  20 students' CGPA and their Salary, an
 
 ## Homework 4
 **Topic:** Write a program implementing the linear regression algorithm to solve a freely chosen problem.\
-I using a small simple Predicting Sales Revenue dataset for this problem (d4.csv)
+I using a small simple Predicting Hotle prices dataset for this problem (sea_hotel.csv)
 
-| Advertising Spend (Online Ads) | Advertising Spend (Social Media) | Advertising Spend (Email Marketing) | Sales Revenue |
-|-------------------------------|----------------------------------|------------------------------------|---------------|
-| 1000                          | 500                              | 200                                | 2500          |
-| 800                           | 700                              | 300                                | 2200          |
-| 1200                          | 900                              | 400                                | 3200          |
-| 1500                          | 600                              | 100                                | 2800          |
-| 900                           | 800                              | 250                                | 2100          |
-| ...                           | ...                              | ...                     
+
 
 ## Homework 5
 **Topic:** Write a program implementing kNN algorithm solving a freely chosen problem

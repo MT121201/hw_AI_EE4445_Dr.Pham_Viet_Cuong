@@ -58,12 +58,13 @@ I used a synthetic dataset generated using the make_blobs function from scikit-l
 
 I use Q_learning to find path From Start(S) reach Goal(G) and avoid Hold(X)
 
-|   | 0 | 1 | 2 | 3 |
-|---|---|---|---|---|
-| 0 | S |   |   |   |
-| 1 | X |   |   | X |
-| 2 |   |   |   |   |
-| 3 |   | X |   | G |
+|   | 0 | 1 | 2 | 3 |4|
+|---|---|---|---|---|---|
+| 0 | S |   |   |   |   |
+| 1 | X |   |   | X |   |
+| 2 |   |   |   |   |   |
+| 3 |   |   |   |   |   |
+| 4 |   | X |   |   | G |
 
 ## Homework 12
 **Topic:** Write a program implementing gradient descent method. Consider at least two non-convex two-variable functions f(x,y), multiple initial points, and various learning rates
